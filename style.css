@@ -1,0 +1,130 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family:monospace,Arial, Helvetica, sans-serif;
+    background-color: rgb(27, 27, 27);
+    margin:10px;
+    padding: 5px;
+    color: rgb(255, 252, 248);
+      
+}
+
+header {
+     margin-bottom: 80px;
+    
+}
+
+h1{
+    font-size:100px;
+    text-align: center;
+    margin: 7% 0;
+    
+}
+
+header p {  
+    width: 70%;
+    margin-bottom: 5px;
+    
+
+}
+
+nav h2{
+    display: inline-block;   
+    width:40%;
+    margin:0;
+}
+
+nav ul li{
+    display: inline-block;
+    border: 1px dashed rgba(200,200,100,0.3);
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    font-size:12px;
+    
+}
+
+nav p {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+h2 {
+    margin-left:5px;
+}
+
+
+main p {
+    margin:30px;
+}
+
+a {
+    color: rgb(193, 116, 82);
+    font-size: 1.1em;
+}
+
+table {
+    line-height: 30px;
+    width:65%;
+    margin:5%;
+}
+
+td {
+    border: 1px dashed whitesmoke;
+    padding:5px;
+    margin:5px;
+}
+
+
+article{
+    margin-bottom:60px ;
+    width: 65%;
+}
+
+code {
+    font-size: 16px;
+}
+
+
+figure {
+    width:65%;
+    margin: 3% 0 5% 1%;
+    padding:2%;
+}
+
+aside {
+    position:fixed;
+    top: 350px;
+    right: 10px;
+    margin-right:5%;
+    
+}
+
+aside h2,
+aside h3,
+aside li {
+    margin-bottom: 25px;
+}
+
+footer{
+    margin:50px 0 50px 40px;
+}
+
+footer li {
+    display: inline-block;
+    border: 1px dashed rgba(200,200,100,0.3);
+    padding: 5px;
+    margin-top: 40px;
+    text-align: left;
+    font-size:12px;
+}
+
+.code {
+    color:rgb(79, 162, 244);
+}
